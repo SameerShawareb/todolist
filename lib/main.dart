@@ -1,11 +1,3 @@
-// COMPOSITION ROOT
-// This is the ONLY file that knows about every layer at once. Its
-// job is just to build the concrete objects (the repository) and
-// wire them into the things that need them (the service, then the
-// UI). This wiring is called "dependency injection" — passing
-// dependencies IN through constructors, rather than a class
-// creating its own dependencies internally.
-
 import 'package:flutter/material.dart';
 import 'application/task_service.dart';
 import 'infrastructure/shared_prefs_task_repository.dart';

@@ -1,10 +1,3 @@
-// APPLICATION LAYER
-// This holds the business rules: what counts as a valid task,
-// what happens when you add/toggle/delete one. It depends on the
-// TaskRepository *interface* from the domain layer — not on any
-// specific storage technology. It has no idea SharedPreferences
-// exists.
-
 import '../../domain/task.dart';
 import '../../domain/task_repository.dart';
 

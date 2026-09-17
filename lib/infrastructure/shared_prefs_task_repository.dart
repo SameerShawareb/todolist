@@ -1,13 +1,3 @@
-// INFRASTRUCTURE LAYER
-// This is the ONLY file in the whole app that knows about
-// SharedPreferences and JSON. It "implements" the TaskRepository
-// contract from the domain layer, filling in the actual how.
-//
-// If you later wanted to save tasks to a real database instead,
-// you would write a new class here (e.g. SqliteTaskRepository)
-// that also implements TaskRepository — and nothing in
-// TaskService or the UI would need to change.
-
 import 'dart:convert';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../../domain/task.dart';

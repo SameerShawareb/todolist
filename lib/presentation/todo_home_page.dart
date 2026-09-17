@@ -1,8 +1,3 @@
-// PRESENTATION LAYER
-// This is your Flutter UI. Notice it never imports
-// shared_preferences or dart:convert — it only talks to
-// TaskService. It doesn't know or care HOW tasks are saved.
-
 import 'package:flutter/material.dart';
 import '../../application/task_service.dart';
 import '../../domain/task.dart';

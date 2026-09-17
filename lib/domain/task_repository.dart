@@ -1,4 +1,3 @@
-
 import 'task.dart';
 
 abstract class TaskRepository {
